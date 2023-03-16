@@ -38,5 +38,5 @@ form > button {
 
 form > button:hover {
   transform: scale(1.1);
-  background-color: rgba(79, 183, 93, 0.2);
+  background-color: rgba(16, 227, 185, 0.355);
 }

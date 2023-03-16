@@ -5,7 +5,7 @@ import {
   useAddContactMutation,
 } from '../../redux/contactsSlice';
 
-export const ContactForm = () => {
+export const ContactForm = (onSubmit) => {
   const [name, setName] = useState('');
   const [phone, setNumber] = useState('');
 
